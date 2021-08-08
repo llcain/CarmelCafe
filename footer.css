@@ -1,0 +1,119 @@
+footer {
+  padding: 24px 0;
+  box-shadow: -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0;
+  border-bottom: 3px solid rgb(41, 41, 41);
+}
+
+.info-section .top-text {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 0 30px 0;
+}
+
+.info-section .bottom-text {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0 10px 0;
+  line-height: 1.5rem;
+}
+
+.footer-container {
+  padding: 0 40px;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: white;
+  background-color: rgb(190, 0, 155);
+}
+
+.footer-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-container ul li {
+  color: rgba(0, 0, 0, 0.56);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+.footer-container ul li:hover {
+  color: rgba (0, 0, 0, 0.87);
+}
+
+.links-container {
+  width: 190px;
+
+  margin-right: 50px;
+}
+
+footer h3 {
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.bottom-footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid rgb(41, 41, 41);
+  padding-top: 20px;
+}
+
+.bottom-footer .icon-links ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+}
+
+.bottom-footer .icon-links ul li i {
+  margin-right: 20px;
+  font-size: 30px;
+  color: rgb(17, 16, 16);
+  cursor: pointer;
+}
+
+.footer-web-links ul {
+  list-style: none;
+  line-height: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-web-links ul li {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-web-links ul li:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer .copyright {
+  margin-right: 20px;
+  padding-right: 20px;
+  position: relative;
+  left: 40px;
+}
+
+.pipe {
+  margin: 0 20px;
+}
