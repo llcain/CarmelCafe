@@ -42,7 +42,11 @@
 }
 
 .left-right-section .image img {
-  width: 100%;
+  width: 100%; 
+}
+
+img {
+  object-fit: cover;
 }
 
 .text h1,
